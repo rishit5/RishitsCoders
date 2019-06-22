@@ -1,0 +1,18 @@
+{
+	"title" : "3. Second Largest Number",
+	"question" : "There is an array of positive integers of size N, and all you have to do is \nfind and print the second largest number from the array! ",
+	"input" : ["You are provided the input in the following manner:" , "\n\n" , "-The first Line contains \"N\" the size of the array!\n-The next line contains the array containing N integers! \n\nNOTE:There can be duplicates in the array!"],
+	"input-example" : "5\n4 3 5 6 8",
+	"output" : "The output should contain the second largest Integer printed!",
+	"output-example": "6",
+	"explanation" : "In the given array, 8 is the largest and 6 is the second \nlargest number, hence we print 6!",
+	"testcase1": "10 1 2 3 4 5 6 7 8 9 10",
+	"testcase2": "10 76 23 12 98 34 56 29 22 87 72",
+	"testcase3": "12 3847 2348 2234 2 2498 98 91 2348 9 824 34 659",
+	"testcase4": "14 746 38 283 1991 91 247 563 27 29 100 348 1273 1782 3579",
+	"testcase1output": "9",
+	"testcase2output": "87",
+	"testcase3output": "2498",
+	"testcase4output": "1991"
+
+}

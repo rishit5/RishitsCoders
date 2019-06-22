@@ -1,0 +1,39 @@
+.homebox {
+    /* margin: auto; */
+    /* width: 400px; */
+    /* margin-top: 50px; */
+    text-align: center;
+    padding: 100px 0 100px 0;
+    border: 2px solid white;
+    border-radius: 0.5pc;
+    margin: 50px auto 50px auto;
+}
+.homelogin {
+    margin-top: 20px;
+    width: 80%;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: rgb(43, 43, 70);
+    padding: 0px;
+    border-bottom: 2px solid black;
+    color: white;
+    /* font-size: 20px; */
+}
+.homelogin:hover, .homelogin:focus {
+    border-bottom: 2px solid white;
+}
+.loginbutton {
+    margin: 20px;
+    border: none;
+    height: 30px;
+    width: 40%;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+}
+@media (min-width: 600px) {
+    .homebox {
+        width: 30%;
+    }
+}

@@ -1,0 +1,18 @@
+{
+	"title" : "4. Climb Up",
+	"question" : "Vaishnavi loves building things with small items in her free time, \ntoday she is building stairs with some coins that are lying around. For the first Step \nshe places one coin on the ground and for the second step she stacks two coins on top of each other, \nshe continues to do so until she can build the highest possible step \nwith all the coins she has available, help Vaishnavi find the maximum step that \nshe can build up till, with the coins she has.",
+	"input" : ["You are provided the input in the following manner:" , "\n\n" , "The number of coins \"X\" that Vaishnavi has!"],
+	"input-example" : "15",
+	"output" : "The output should contain the highest step she can build upto, with the \"X\" number \nof coins that she has. ",
+	"output-example": "5",
+	"explanation" : "In the given example, \"X\" is 15, so she has 15 coins, with these 15 coins she can build 5 step as follows \n\n-First step has 1 coin\n-Second step has 2 coins\n-Third Step has 3 coins \n-Fourth Step has 4 coins\n-The final step has 5 coins\n\nAnd 1 + 2 + 3 + 4 + 5 = 15, which exhausts all the coins she has \nhence she can not build any more steps\n\nNOTE:She will always have exactly those many coins which complete the \nhighest step she is trying to build, there will be no extra left",
+	"testcase1": "0",
+	"testcase2": "6",
+	"testcase3": "10",
+	"testcase4": "3",
+	"testcase1output": "0",
+	"testcase2output": "3",
+	"testcase3output": "4",
+	"testcase4output": "2"
+
+}

@@ -1,0 +1,102 @@
+.outputbox {
+    margin-bottom: 50px;
+    background-color: #b5a484;
+    border-radius: 2px;
+    /* width: 50%; */
+    padding: 10px 5px 10px 5px;
+    /* height: 200px; */
+    color: black;
+}
+.butt {
+    outline: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 2px;
+    background-color: rgb(102, 102, 102);
+    margin-right: 10px;
+    border: none;
+    float: right;
+    width: 120px;
+    height: 40px;
+    /* border: 2px solid black; */
+}
+.butt:hover {
+    cursor: pointer;
+    background-color: rgb(59, 55, 55);
+}
+h1 {
+    text-align: center;
+}
+.codebox {
+
+    /* text-align: center; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding: 20px 20px 20px 20px;
+    background-color: white;
+    border-radius: 2px;
+    display: block;
+    /* font-size: 20px; */
+}
+.question {
+    padding: 20px 10px 20px 10px;
+    /* width: 100%; */
+    /* margin-top: 30px; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+    background-color:  rgb(43, 43, 70);
+    color: white;
+    border-radius: 4px;
+}
+.coder {
+    font-size: 15px;
+    border-radius: 20px;
+    /* height: 400px; */
+}
+.marginbox {
+    margin-top: 50px;
+
+}
+:global .CodeMirror {
+    /* Set height, width, borders, and global font properties here */
+    font-family: monospace;
+    height: 500px;
+    color: black;
+    direction: ltr;
+  }
+  .component { 
+    & :global(.react-codemirror2) {
+       height: 400px; /* remove label height above mirror in my case */
+    }
+  }
+  
+/* .CodeMirror {
+  height: 500px;
+}
+.react-codemirror2 {
+    height: 600px;
+} */
+/* .textarea {
+    height: 600px;
+} */
+.failcase {
+    /* height: 30px; */
+    width: 30%;
+    background-color: rgb(165, 83, 83);
+    color: rgb(134, 43, 43);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 2px;
+    text-align: center;
+}   
+.passcase {
+    /* height: 30px; */
+    width: 30%;
+    border-radius: 2px;
+    background-color: rgb(105, 158, 112);
+    color: rgb(25, 109, 36);
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+}

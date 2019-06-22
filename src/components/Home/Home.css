@@ -1,0 +1,113 @@
+.headerbar {
+    text-align: center;
+    /* position: fixed; */
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    /* height: 40px; */
+  }
+  nav {
+    display: inline-block;
+    padding: 10px;
+    width: 150px;
+    /* border: 2px solid white; */
+  }
+  nav:hover {
+    background-color: rgb(43, 43, 70);
+    /* border-bottom: 2px solid black; */
+  }
+  .buttonnav {
+    font-size: 1.2em;
+    width: 100%;
+    /* background-color: rgb(43, 43, 70); */
+    /* background-color: black; */
+    color: white;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    padding: 5%;
+  }
+  .buttonnav:hover, .buttonnav:focus {
+    border-bottom: 2px solid white;
+  }
+  .outerdiv {
+    margin: 0;
+    padding: 0;
+  }
+li {
+  list-style: none;
+  display: inline;
+}
+/* ul {
+  background-color: white;
+  margin: 0;
+} */
+a {
+  text-decoration: none;
+  color: black;
+  width: 40px;
+}
+.scorebox {
+  float: right;
+  margin: 10px;
+}
+footer {
+  background-color: white;
+}
+.fullbox {
+  height: 100%;
+}
+#background1 {
+  position: absolute;
+  /* left: 0; */
+  bottom: 60px;
+  right: 0px;
+  z-index: -1;
+  font-size: 15em;
+  font-family: sans-serif;
+  color: rgb(192, 171, 171);
+   opacity: 0.751;
+  font-weight: 1000;
+  height:300px;
+}
+#background2 {
+  position: absolute;
+  left: -30px;
+  bottom: 200px;
+  /* right: 0px; */
+  z-index: -1;
+  font-size: 11em;
+  font-family: sans-serif;
+  color: rgb(192, 171, 171)x;
+   opacity: 0.751;
+  font-weight: 800;
+  color: rgb(192, 171, 171);
+  height:300px;
+}
+#background3 {
+  position: absolute;
+  left: -30px;
+  bottom: 0px;
+  /* right: 0px; */
+  z-index: -1;
+  font-size: 15em;
+  font-family: sans-serif;
+  color: rgb(192, 171, 171)x;
+   opacity: 0.751;
+  font-weight: 1000;
+  color: rgb(192, 171, 171);
+  height:300px;
+}
+#background4 {
+  position: absolute;
+  /* left: 0; */
+  top: 0;
+  right: 0px;
+  z-index: -1;
+  font-size: 11em;
+  font-family: sans-serif;
+  color: rgb(192, 171, 171);
+   opacity: 0.751;
+  font-weight: 800;
+  height:300px;
+}

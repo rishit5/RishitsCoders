@@ -1,0 +1,16 @@
+body {
+  background: radial-gradient(at center center, rgb(43, 43, 70) 9%, rgb(35, 36, 56) 53%, rgb(34, 36, 55) 100%);
+  background-image: radial-gradient(at center center, rgb(43, 43, 70) 9%, rgb(35, 36, 56) 53%, rgb(34, 36, 55) 100%);
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0; 
+  /* height: 100%; */
+}

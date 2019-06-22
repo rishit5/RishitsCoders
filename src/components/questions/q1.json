@@ -1,0 +1,18 @@
+{
+	"title" : "1. Sum Of Two Numbers: Warm Up",
+	"question" : "This is just a beginners exercise to get familiarised with the new \ncoding portal. You are given two integers M and N, and you are supposed to \ndo the four basic arithemetic operations on these number which are \n\n1) M + N \n2) M - N\n3) M * N\n4) M / N\n\nand print each of the result on a newline!\nNOTE: If M is not divisible by N, we just print the integer division result of M/N, eg. so 15/4=3",
+	"input" : ["You are provided the input in the following manner:" , "\n\n" , "Two Integers M and N"],
+	"input-example" : "16 4",
+	"output" : "The output should contain the four operations performed on these numbers printed \non a newline. The order in which the results are printed matters.\n\n1)First Line should contain addition.\n2)Second Line should contain the subtraction or the difference.\n3)Third Line should contain the product\n4)Fourth Line should contain the quotient when M is divided by N.",
+	"output-example": "20\n12\n64\n4",
+	"explanation" : "In the given example, M is 16 and N is 4, \nso we print M + N = 20 on the first line,\nM - N = 12 on the second line,\nM * N = 64 on the third line and \nM / N = 4 on the fourth line.",
+	"testcase1": "23 6",
+	"testcase2": "67 8",
+	"testcase3": "56 4",
+	"testcase4": "34 3",
+	"testcase1output": "29\n17\n138\n3",
+	"testcase2output": "75\n59\n536\n8",
+	"testcase3output": "60\n52\n224\n14",
+	"testcase4output": "37\n31\n102\n11"
+
+}

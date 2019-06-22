@@ -1,0 +1,18 @@
+{
+	"title" : "2. The Chocolate Problem",
+	"question" : "Thrivikrams' father went to the US and got him his favourite chocolate, Hersheys. \nThrivikram loves eating Hersheys but also wants to share it with his friends Saket, Umesh and Akash. \nHe wants to make sure that all the chocolates are divided equally among him and his 3 friends, \nIf any chocolates are left over after equally dividing it among him and his friends, he will give it to his mother. \nFind out the number of chocolates each of his friends \nand him get and the number of chocolates he gives to his mom!",
+	"input" : ["You are provided the input in the following manner:" , "\n\n" , "The number of chocolates 'X' that his father got from the US"],
+	"input-example" : "25",
+	"output" : "You need to print the output as follows: \nFirst print the number of chocolates that him and his 3 friends, each get and \nthen print the number of chocolates Thrivikram gives to his mother!",
+	"output-example": "6 1",
+	"explanation" : "Since his father got 25 chocolates, he can give a maximum of 6 chocolates each to his 3 friends and keep \n6 for himself. (6*3 + 6) = 24, hence he is left with 1 chocolate which he gives to his mother",
+	"testcase1": "40",
+	"testcase2": "151",
+	"testcase3": "99",
+	"testcase4": "0",
+	"testcase1output": "10 0",
+	"testcase2output": "37 3",
+	"testcase3output": "24 3",
+	"testcase4output": "0 0"
+
+}
