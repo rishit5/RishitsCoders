@@ -1,5 +1,5 @@
-# RishitsCoders
-An Online Code judge that uses the JudgeO api to grade code <br>
+# RishitsCoders - Reactjs
+An Online Code judge made using react that uses the JudgeO api to grade code <br>
 Code is compiled and checked for the input testcases which can be modified in the 
 questions folder. 
 ## Salient features
